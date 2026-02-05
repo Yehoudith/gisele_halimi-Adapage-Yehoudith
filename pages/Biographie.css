@@ -1,0 +1,77 @@
+body {
+    
+}
+.bouton{
+    margin-left: 15px;
+    background-color: white;
+    height: 100px;
+    text-decoration: none;
+    color:  #a29680;
+}
+h1 {
+    text-decoration: underline;
+    margin: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #a29680;
+}
+.centre-de-la-page{
+    background-color:rgb(237, 229, 219) ;
+  
+}
+.parent {
+display: grid;
+grid-template-columns: 1fr 3% 1fr;
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 8px;
+grid-row-gap: 7px;
+margin-left: 30px;
+margin-right: 30px;
+padding-bottom: 20px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 2; 
+border: 1px solid #a29680;
+border-radius: 20%;
+display: flex;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+.div2 { grid-area: 2 / 3 / 3 / 4;
+border: 1px solid #a29680; 
+border-radius: 20%;
+display: flex;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+.div3 { grid-area: 3 / 1 / 4 / 2; 
+border: 1px solid #a29680;
+border-radius: 20%;
+display: flex;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+.div4 { grid-area: 4 / 3 / 5 / 4; 
+border: 1px solid #a29680;
+border-radius: 20%;
+display: flex;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+.div5 { grid-area: 5 / 1 / 6 / 2; 
+border: 1px solid #a29680;
+border-radius: 20%;
+display: flex;
+text-align: center;
+align-items: center;
+padding: 10px;
+}
+.div6 { grid-area: 1 / 2 / 6 / 3; 
+background-color: #a29680;
+border-radius: 20%;
+}
+
